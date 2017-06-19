@@ -1,0 +1,8 @@
+transfer rules corrections
+--This line, and those below, will be ignored--
+
+M    apertium-kaz-rus.kaz-rus.t1x
+M    apertium-kaz-rus.kaz-rus.t2x
+M    apertium-kaz-rus.rus-kaz.t1x
+M    apertium-kaz-rus.rus-kaz.t2x
+M    apertium-kaz-rus.rus-kaz.t4x

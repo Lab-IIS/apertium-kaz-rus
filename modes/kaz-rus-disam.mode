@@ -1,0 +1,6 @@
+
+  
+    lt-proc -w '/home/aida/apertium-testing/apertium-kaz-rus/kaz-rus.automorf.bin' | cg-conv -a -l| vislcg3 --trace --grammar '/home/aida/apertium-testing/apertium-kaz-rus/kaz-rus.rlx.bin' 
+  
+
+  

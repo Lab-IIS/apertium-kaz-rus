@@ -1,0 +1,4 @@
+
+      
+    lt-proc -w '/home/aida/apertium-testing/apertium-kaz-rus/rus-kaz.automorf.bin' | cg-proc  -n -w -1 '/home/aida/apertium-testing/apertium-kaz-rus/rus-kaz.rlx.bin' | apertium-pretransfer| lt-proc -b '/home/aida/apertium-testing/apertium-kaz-rus/rus-kaz.autobil.bin' 
+  

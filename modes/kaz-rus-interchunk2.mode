@@ -1,0 +1,6 @@
+
+  
+    lt-proc -w '/home/aida/apertium-testing/apertium-kaz-rus/kaz-rus.automorf.bin' | cg-proc -n -w -1 '/home/aida/apertium-testing/apertium-kaz-rus/kaz-rus.rlx.bin' | apertium-pretransfer| lt-proc -b '/home/aida/apertium-testing/apertium-kaz-rus/kaz-rus.autobil.bin' | lrx-proc -m '/home/aida/apertium-testing/apertium-kaz-rus/kaz-rus.lrx.bin' | apertium-transfer -b '/home/aida/apertium-testing/apertium-kaz-rus/apertium-kaz-rus.kaz-rus.t1x'  '/home/aida/apertium-testing/apertium-kaz-rus/kaz-rus.t1x.bin' | apertium-interchunk '/home/aida/apertium-testing/apertium-kaz-rus/apertium-kaz-rus.kaz-rus.t2x'  '/home/aida/apertium-testing/apertium-kaz-rus/kaz-rus.t2x.bin' | apertium-interchunk '/home/aida/apertium-testing/apertium-kaz-rus/apertium-kaz-rus.kaz-rus.t3x'  '/home/aida/apertium-testing/apertium-kaz-rus/kaz-rus.t3x.bin' 
+  
+
+  
