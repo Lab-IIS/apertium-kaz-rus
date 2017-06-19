@@ -1,0 +1,165 @@
+
+===============================================================================
+                  Kazakh and Russian: Current problems and issues
+===============================================================================
+
+================= Transfer files debug information 2017-06-19======================
+
+
+=======================eng-kazt4x
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-eng-kaz/apertium-eng-kaz.eng-kaz.t4x -o output.v1
+Error: line 761, attr 'a_lem' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-eng-kaz/apertium-eng-kaz.eng-kaz.t4x -o output.v1
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$
+
+**********************kaz-eng*******************
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-eng-kaz/apertium-eng-kaz.kaz-eng.t1x -o output.v1
+Error: line 1.633, attr 'a_case' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-eng-kaz/apertium-eng-kaz.kaz-eng.t1x -o output.v1
+Error: line 1.667, attr 'a_px' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-eng-kaz/apertium-eng-kaz.kaz-eng.t1x -o output.v1
+Error: line 1.806, var 'a_tns' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-eng-kaz/apertium-eng-kaz.kaz-eng.t1x -o output.v1
+Error: line 1.860, attr 'a_postposition' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-eng-kaz/apertium-eng-kaz.kaz-eng.t1x -o output.v1
+Error: line 2.041, var 'a_pos' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-eng-kaz/apertium-eng-kaz.kaz-eng.t1x -o output.v1
+Error: line 2.934, macro 'choose_case_and_postposition2' needs 2 parameters, passed 1
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-eng-kaz/apertium-eng-kaz.kaz-eng.t1x -o output.v1
+Error: line 2.992, macro 'choose_case_and_postposition2' needs 2 parameters, passed 1
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-eng-kaz/apertium-eng-kaz.kaz-eng.t1x -o output.v1
+Error: line 3.480, macro 'choose_case_and_postposition2' needs 2 parameters, passed 1
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-eng-kaz/apertium-eng-kaz.kaz-eng.t1x -o output.v1
+Error: line 4.571, attr 'a_subst' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-eng-kaz/apertium-eng-kaz.kaz-eng.t1x -o output.v1
+Error: line 5.815, var 'a_np' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-eng-kaz/apertium-eng-kaz.kaz-eng.t1x -o output.v1
+Error: line 6.058, attr 'a_adj' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-eng-kaz/apertium-eng-kaz.kaz-eng.t1x -o output.v1
+Error: line 6.098, attr 'a_adj' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-eng-kaz/apertium-eng-kaz.kaz-eng.t1x -o output.v1
+Error: line 6.136, attr 'a_adj' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-eng-kaz/apertium-eng-kaz.kaz-eng.t1x -o output.v1
+Error: line 6.357, attr 'a_adj' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-eng-kaz/apertium-eng-kaz.kaz-eng.t1x -o output.v1
+Error: line 8.362, macro 'choose_case_and_postposition2' needs 2 parameters, passed 1
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-eng-kaz/apertium-eng-kaz.kaz-eng.t1x -o output.v1
+Error: line 14.581, attr 'learned_mode' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-eng-kaz/apertium-eng-kaz.kaz-eng.t1x -o output.v1
+Error: line 14.610, attr 'learned_isvbpron' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-eng-kaz/apertium-eng-kaz.kaz-eng.t1x -o output.v1
+Error: line 14.681, attr 'learned_isvbpron' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-eng-kaz/apertium-eng-kaz.kaz-eng.t1x -o output.v1
+===================kaz-engt2x==============
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-eng-kaz/apertium-eng-kaz.kaz-eng.t2x -o output.v1
+Error: line 1.367, attr 'a_possessive' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-eng-kaz/apertium-eng-kaz.kaz-eng.t2x -o output.v1
+Error: line 2.072, attr 'nbr' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-eng-kaz/apertium-eng-kaz.kaz-eng.t2x -o output.v1
+Error: line 2.067, attr 'a_nbr' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-eng-kaz/apertium-eng-kaz.kaz-eng.t2x -o output.v1
+==================kaz-engt3x
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-eng-kaz/apertium-eng-kaz.kaz-eng.t3x -o output.v1
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$
+
+
+********************************kaz-rust1x************
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.kaz-rus.t1x -o output.v1
+Error: line 957, attr 'learned_gen' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.kaz-rus.t1x -o output.v1
+Error: line 957, attr 'learned_gen' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.kaz-rus.t1x -o output.v1
+Error: line 978, attr 'learned_num' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.kaz-rus.t1x -o output.v1
+Error: line 1.608, attr 'a_postposition' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.kaz-rus.t1x -o output.v1
+Error: line 1.697, attr 'a_cas' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.kaz-rus.t1x -o output.v1
+Error: line 1.788, var 'a_pos' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.kaz-rus.t1x -o output.v1
+Error: line 1.788, var 'a_pos' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.kaz-rus.t1x -o output.v1
+Error: line 1.788, var 'a_poss' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.kaz-rus.t1x -o output.v1
+Error: line 3.598, attr '_attr_prn_' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.kaz-rus.t1x -o output.v1
+Error: line 3.598, attr 'prn' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.kaz-rus.t1x -o output.v1
+Error: line 3.598, attr 'a_prn' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.kaz-rus.t1x -o output.v1
+Error: line 3.612, macro 'choose_case_and_postposition2' needs 2 parameters, passed 1
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.kaz-rus.t1x -o output.v1
+Error: line 4.575, attr 'a_rus_verb' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.kaz-rus.t1x -o output.v1
+===========kaz-rust2x==========
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.kaz-rus.t2x -o output.v1
+Error: line 153, attr 'a_sn_type' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.kaz-rus.t2x -o output.v1
+Error: line 409, attr 'a_tense' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.kaz-rus.t2x -o output.v1
+Error: line 425, attr 'a_possessive' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.kaz-rus.t2x -o output.v1
+Error: line 443, attr 'a_pass' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.kaz-rus.t2x -o output.v1
+========kaz-rust3x
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.kaz-rus.t3x -o output.v1
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$
+*******************rus-kazt1x********
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.rus-kaz.t1x -o output.v1
+Error: line 900, attr 'learned_gen' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.rus-kaz.t1x -o output.v1
+Error: line 900, attr 'learned_gen' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.rus-kaz.t1x -o output.v1
+Error: line 918, attr 'learned_num' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.rus-kaz.t1x -o output.v1
+Error: line 1.644, var 'a_possessive' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.rus-kaz.t1x -o output.v1
+Error: line 4.800, attr 'learned_issepverb' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.rus-kaz.t1x -o output.v1
+Error: line 4.800, attr 'learned_derivation' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.rus-kaz.t1x -o output.v1
+Error: line 4.800, attr 'learned_derivation' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.rus-kaz.t1x -o output.v1
+Error: line 4.800, attr 'learned_mood' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.rus-kaz.t1x -o output.v1
+Error: line 4.801, attr 'learned_person' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.rus-kaz.t1x -o output.v1
+Error: line 4.802, attr 'learned_form' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.rus-kaz.t1x -o output.v1
+Error: line 4.828, attr 'learned_negative' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.rus-kaz.t1x -o output.v1
+Error: line 4.858, attr 'learned_person' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.rus-kaz.t1x -o output.v1
+Error: line 4.859, attr 'learned_numberat' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.rus-kaz.t1x -o output.v1
+Error: line 4.959, attr 'learned_advtype' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.rus-kaz.t1x -o output.v1
+Error: line 5.028, attr 'learned_form' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.rus-kaz.t1x -o output.v1
+Error: line 5.076, attr 'learned_prntype' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.rus-kaz.t1x -o output.v1
+Error: line 5.140, attr 'learned_attruse' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.rus-kaz.t1x -o output.v1
+Error: line 5.152, attr 'learned_preptag' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.rus-kaz.t1x -o output.v1
+Error: line 5.347, attr 'learned_cnp' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.rus-kaz.t1x -o output.v1
+===============rus-kazt2x=======
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.rus-kaz.t2x -o output.v1
+Error: line 141, attr 'a_np' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.rus-kaz.t2x -o output.v1
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$
+
+===============rus-kazt3x========
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.rus-kaz.t3x -o output.v1
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$
+===============rus-kazt4x========
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.rus-kaz.t4x -o output.v1
+Error: line 696, attr 'a_lem' doesn't exist.
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$ ./apertium-compile-transfer -i ../apertium-kaz-rus/apertium-kaz-rus.rus-kaz.t4x -o output.v1
+aida@aida-HP-Pavilion-Notebook:~/apertium-testing/vm-for-transfer-cpp-master$
+
+
+
+
